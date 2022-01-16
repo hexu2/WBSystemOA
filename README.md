@@ -35,13 +35,12 @@ work_id node_id node_name waiting_user next_node_pass  next_node_refuse  (next_n
 
 针对单条请假数据有工作流流程
 
-顾康伟申请请假1天 --用户提交 13：45：00
-叶莹（张太伟）审批          --部长审批 16：45：00
-袁老师（userID:8888）审批       --总经理审批
-季老师统计       --人事归档 
+Student A 申请请假1天 --用户提交 13：45：00
+Techer A审批          --部长审批 16：45：00
+Manager A 审批       --总经理审批
+HR A       --人事归档 
 结束  
 
-瞿安琰 请假 
 
 工作流动作表
 3）t_work_node_action
