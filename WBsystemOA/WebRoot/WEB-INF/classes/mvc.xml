@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<actions>
+    <!-- 所有的响应的jsp地址都是绝对路径 -->
+    <!-- 将来请求地址是/login.do -->
+	
+	<!-- **********************部门管理***************** -->
+	<!-- 部门查询 -->
+	<action name="/queryAllDepts"  class="com.njwangbo.oa.action.DeptAction" method="queryAll">
+		 <result name="success" type="forward">/njwb/dept/dept.jsp</result>
+	</action>
+	<!-- 部门编号检查 -->
+	<action name="/checkDeptNo"  class="com.njwangbo.oa.action.DeptAction" method="checkDeptNo">
+		 <result name="success" type="stream">/njwb/dept/dept.jsp</result>
+	</action>
+	
+	<!-- 部门添加 -->
+	<action name="/addDept"  class="com.njwangbo.oa.action.DeptAction" method="addDept">
+		 <result name="error" type="forward">/njwb/prompt/error.jsp</result>
+		 <result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 部门删除 -->
+	<action name="/delDept"  class="com.njwangbo.oa.action.DeptAction" method="delDept">
+		 <result name="error" type="forward">/njwb/prompt/error.jsp</result>
+		 <result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 部门修改查询 -->
+	<action name="/queryDeptUpdate"  class="com.njwangbo.oa.action.DeptAction" method="queryDeptUpdate">
+		 <result name="success" type="forward">/njwb/dept/deptEdit.jsp</result>
+	</action>
+	<!-- 部门修改 -->
+	<action name="/deptUpdate"  class="com.njwangbo.oa.action.DeptAction" method="deptUpdate">
+		 <result name="error" type="forward">/njwb/prompt/error.jsp</result>
+		 <result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 部门明细查询 -->
+	<action name="/queryDeptDetail"  class="com.njwangbo.oa.action.DeptAction" method="queryDeptDetail">
+		 <result name="success" type="forward">/njwb/dept/deptDetail.jsp</result>
+	</action>
+	
+	<!-- **********************员工管理***************** -->
+	<!-- 查询所有员工 -->
+	<action name="/queryAllEmps"  class="com.njwangbo.oa.action.EmpAction" method="queryAllEmps">
+		 <result name="success" type="forward">/njwb/emp/emp.jsp</result>
+	</action>
+	<!-- 查询添加员工 -->
+	<action name="/queryEmpAdd"  class="com.njwangbo.oa.action.EmpAction" method="queryEmpAdd">
+		 <result name="success" type="forward">/njwb/emp/empAdd.jsp</result>
+	</action>
+	<!-- 添加员工 -->
+	<action name="/addEmp"  class="com.njwangbo.oa.action.EmpAction" method="addEmp">
+		 <result name="error" type="forward">/njwb/prompt/error.jsp</result>
+		 <result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 删除员工 -->
+	<action name="/deleteEmp"  class="com.njwangbo.oa.action.EmpAction" method="deleteEmp">
+		 <result name="error" type="forward">/njwb/prompt/error.jsp</result>
+		 <result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 查询修改员工 -->
+	<action name="/queryUpdateEmp"  class="com.njwangbo.oa.action.EmpAction" method="queryUpdateEmp">
+		 <result name="success" type="forward">/njwb/emp/empEdit.jsp</result>
+	</action>
+	<!-- 修改员工 -->
+	<action name="/updateEmp"  class="com.njwangbo.oa.action.EmpAction" method="updateEmp">
+		 <result name="error" type="forward">/njwb/prompt/error.jsp</result>
+		 <result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 查询员工明细 -->
+	<action name="/queryEmpDetail"  class="com.njwangbo.oa.action.EmpAction" method="queryEmpDetail">
+		 <result name="success" type="forward">/njwb/emp/empDetail.jsp</result>
+	</action>
+	<!-- 模糊查询所有员工 -->
+	<action name="/queryEmpsByBtn"  class="com.njwangbo.oa.action.EmpAction" method="queryEmpsByBtn">
+		 <result name="success" type="forward">/njwb/emp/emp.jsp</result>
+	</action>
+	<!-- 模糊查询员工根据员工名 -->
+	<action name="/queryByEmpName"  class="com.njwangbo.oa.action.EmpAction" method="queryByEmpName">
+		 <result name="success" type="stream" />
+	</action>
+	<!-- 检查员工号是否已经存在 -->
+	<action name="/checkEmpNo"  class="com.njwangbo.oa.action.EmpAction" method="checkEmpNo">
+		 <result name="success" type="stream" />
+	</action>
+	<!-- 根据员工号查询员工 -->
+	<action name="/queryByEmpNo"  class="com.njwangbo.oa.action.EmpAction" method="queryByEmpNo">
+		 <result name="success" type="stream" />
+	</action>		
+	<!-- **********************登陆***************** -->
+	<!-- 登录 -->
+	<action name="/login"  class="com.njwangbo.oa.action.UserAction" method="login">
+		 <result name="login" type="stream"/>
+	</action>
+	<!-- 获取验证码图片 -->
+	<action name="/getCertPic"  class="com.njwangbo.oa.action.UserAction" method="getCertPic">
+		 <result name="success" type="stream"/>
+	</action>
+	<!-- 退出 -->
+	<action name="/quit"  class="com.njwangbo.oa.action.UserAction" method="quit">
+		 <result name="success" type="redirect">/njwb/login.jsp</result>
+	</action>
+	
+	<!-- **********************请假***************** -->
+	<!-- 查询所有请假 -->
+	<action name="/queryAllHolidays"  class="com.njwangbo.oa.action.HolidayAction" method="queryAllHolidays">
+		 <result name="success" type="forward">/njwb/holiday/holiday.jsp</result>
+	</action>
+	<!-- 模糊查询所有请假 -->
+	<action name="/queryHolidayByBtn"  class="com.njwangbo.oa.action.HolidayAction" method="queryHolidayByBtn">
+		 <result name="success" type="forward">/njwb/holiday/holiday.jsp</result>
+	</action>
+	<!-- 查询添加请假 -->
+	<action name="/queryHolidayAdd"  class="com.njwangbo.oa.action.HolidayAction" method="queryHolidayAdd">
+		 <result name="success" type="forward">/njwb/holiday/holidayAdd.jsp</result>
+	</action>
+	<!-- 添加请假 -->
+	<action name="/holidayAdd"  class="com.njwangbo.oa.action.HolidayAction" method="holidayAdd">
+		 <result name="error" type="forward">/njwb/prompt/error.jsp</result>
+		 <result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 删除请假 -->
+	<action name="/holidayDel"  class="com.njwangbo.oa.action.HolidayAction" method="holidayDel">
+		 <result name="error" type="forward">/njwb/prompt/error.jsp</result>
+		 <result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 修改请假查询 -->
+	<action name="/queryHolidayUpdate"  class="com.njwangbo.oa.action.HolidayAction" method="queryHolidayUpdate">
+		 <result name="success" type="forward">/njwb/holiday/holidayEdit.jsp</result>
+	</action>
+	<!-- 修改请假 -->
+	<action name="/holidayUpdate"  class="com.njwangbo.oa.action.HolidayAction" method="holidayUpdate">
+		 <result name="error" type="forward">/njwb/prompt/error.jsp</result>
+		 <result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 请假明细查询 -->
+	<action name="/queryHolidayDetail"  class="com.njwangbo.oa.action.HolidayAction" method="queryHolidayDetail">
+		 <result name="success" type="forward">/njwb/holiday/holidayDetail.jsp</result>
+	</action>
+	
+	<!-- **********************报销***************** -->
+	<!-- 查询所有报销记录 -->
+	<action name="/queryBaoXiaos"  class="com.njwangbo.oa.action.BaoXiaoAction" method="queryBaoXiaos">
+		<result name="success" type="forward">/njwb/baoXiao/baoXiao.jsp</result>
+	</action>
+	<!-- 模糊查询所有报销记录 -->
+	<action name="/queryBaoXiaoByBtn"  class="com.njwangbo.oa.action.BaoXiaoAction" method="queryBaoXiaoByBtn">
+		<result name="success" type="forward">/njwb/baoXiao/baoXiao.jsp</result>
+	</action>
+	<!-- 查询添加报销记录 -->
+	<action name="/queryBaoXiaoAdd"  class="com.njwangbo.oa.action.BaoXiaoAction" method="queryBaoXiaoAdd">
+		<result name="success" type="forward">/njwb/baoXiao/baoXiaoAdd.jsp</result>
+	</action>
+	<!-- 添加报销记录 -->
+	<action name="/baoXiaoAdd"  class="com.njwangbo.oa.action.BaoXiaoAction" method="baoXiaoAdd">
+		<result name="error" type="forward">/njwb/prompt/error.jsp</result>
+	<result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 删除报销记录 -->
+	<action name="/baoXiaoDel"  class="com.njwangbo.oa.action.BaoXiaoAction" method="baoXiaoDel">
+		<result name="error" type="forward">/njwb/prompt/error.jsp</result>
+	<result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 查询修改报销记录 -->
+	<action name="/queryBaoXiaoUpdate"  class="com.njwangbo.oa.action.BaoXiaoAction" method="queryBaoXiaoUpdate">
+		<result name="success" type="forward">/njwb/baoXiao/baoXiaoEdit.jsp</result>
+	</action>
+	<!-- 修改报销记录 -->
+	<action name="/baoXiaoUpdate"  class="com.njwangbo.oa.action.BaoXiaoAction" method="baoXiaoUpdate">
+		<result name="error" type="forward">/njwb/prompt/error.jsp</result>
+	<result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 查询报销明细 -->
+	<action name="/queryBaoXiaoDetail"  class="com.njwangbo.oa.action.BaoXiaoAction" method="queryBaoXiaoDetail">
+		<result name="success" type="forward">/njwb/baoXiao/baoXiaoDetail.jsp</result>
+	</action>
+	
+	
+	<!-- **********************账户***************** -->
+	<!-- 查询所有用户记录 -->
+	<action name="/queryUsers"  class="com.njwangbo.oa.action.UserAction" method="queryUsers">
+		<result name="success" type="forward">/njwb/user/user.jsp</result>
+	</action>
+	<!-- 模糊查询用户记录 -->
+	<action name="/queryUsersByBtn"  class="com.njwangbo.oa.action.UserAction" method="queryUsersByBtn">
+		<result name="success" type="forward">/njwb/user/user.jsp</result>
+	</action>
+	<!-- 添加用户查询 -->
+	<action name="/queryUserAdd"  class="com.njwangbo.oa.action.UserAction" method="queryUserAdd">
+		<result name="success" type="forward">/njwb/user/userAdd.jsp</result>
+	</action>
+	<!-- 添加用户 -->
+	<action name="/userAdd"  class="com.njwangbo.oa.action.UserAction" method="userAdd">
+		<result name="error" type="forward">/njwb/prompt/error.jsp</result>
+	<result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 删除用户 -->
+	<action name="/userDel"  class="com.njwangbo.oa.action.UserAction" method="userDel">
+		<result name="error" type="forward">/njwb/prompt/error.jsp</result>
+		<result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 修改用户查询 -->
+	<action name="/queryUserUpdate"  class="com.njwangbo.oa.action.UserAction" method="queryUserUpdate">
+		<result name="success" type="forward">/njwb/user/userEdit.jsp</result>
+	</action>
+	<!-- 修改用户 -->
+	<action name="/userUpdate"  class="com.njwangbo.oa.action.UserAction" method="userUpdate">
+		<result name="error" type="forward">/njwb/prompt/error.jsp</result>
+		<result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 查询用户明细 -->
+	<action name="/queryUserDetail"  class="com.njwangbo.oa.action.UserAction" method="queryUserDetail">
+		<result name="success" type="forward">/njwb/user/userDetail.jsp</result>
+	</action>
+	<!-- 密码重置 -->
+	<action name="/resetPwd"  class="com.njwangbo.oa.action.UserAction" method="resetPwd">
+		<result name="error" type="forward">/njwb/prompt/error.jsp</result>
+		<result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 模糊查询用户根据用户名 -->
+	<action name="/queryByUserName"  class="com.njwangbo.oa.action.UserAction" method="queryByUserName">
+		<result name="success" type="stream"/>
+	</action>
+	<!-- 检查用户名是否已经存在 -->
+	<action name="/checkUserName"  class="com.njwangbo.oa.action.UserAction" method="checkUserName">
+		<result name="success" type="stream"/>
+	</action>
+	<!-- **********************角色***************** -->
+	<!-- 查询所有角色记录 -->
+	<action name="/queryRoles"  class="com.njwangbo.oa.action.RoleAction" method="queryRoles">
+		<result name="success" type="forward">/njwb/role/role.jsp</result>
+	</action>
+	<!-- 删除角色 -->
+	<action name="/roleDel"  class="com.njwangbo.oa.action.RoleAction" method="roleDel">
+		<result name="error" type="forward">/njwb/prompt/error.jsp</result>
+	<result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 添加角色 -->
+	<action name="/roleAdd"  class="com.njwangbo.oa.action.RoleAction" method="roleAdd">
+		<result name="error" type="forward">/njwb/prompt/error.jsp</result>
+	<result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 角色记录修改查询  -->
+	<action name="/queryRoleUpdate"  class="com.njwangbo.oa.action.RoleAction" method="queryRoleUpdate">
+		<result name="success" type="forward">/njwb/role/roleEdit.jsp</result>
+	</action>
+	<!-- 修改角色 -->
+	<action name="/roleUpdate"  class="com.njwangbo.oa.action.RoleAction" method="roleUpdate">
+		<result name="error" type="forward">/njwb/prompt/error.jsp</result>
+	<result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	
+	
+	<!-- **********************权限***************** -->
+	<!-- 查询所有权限记录 -->
+	<action name="/queryPermissions"  class="com.njwangbo.oa.action.PermissionAction" method="queryPermissions">
+		<result name="success" type="forward">/njwb/permission/permission.jsp</result>
+	</action>
+	<!-- 模糊查询所有权限记录 -->
+	<action name="/queryPermissionsByBtn"  class="com.njwangbo.oa.action.PermissionAction" method="queryPermissionsByBtn">
+		<result name="success" type="forward">/njwb/permission/permission.jsp</result>
+	</action>
+	<!-- 添加权限查询 -->
+	<action name="/queryPermissionAdd"  class="com.njwangbo.oa.action.PermissionAction" method="queryPermissionAdd">
+		<result name="success" type="forward">/njwb/permission/permissionAdd.jsp</result>
+	</action>
+	<!-- 添加权限-->
+	<action name="/permissionAdd"  class="com.njwangbo.oa.action.PermissionAction" method="permissionAdd">
+		<result name="error" type="forward">/njwb/prompt/error.jsp</result>
+		<result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	<!-- 删除权限-->
+	<action name="/permissionDel"  class="com.njwangbo.oa.action.PermissionAction" method="permissionDel">
+		<result name="error" type="forward">/njwb/prompt/error.jsp</result>
+		<result name="success" type="forward">/njwb/prompt/success.jsp</result>
+	</action>
+	
+	
+	<!-- **********************工作流***************** -->
+	<!-- 请假工作流 -->
+	<!-- 查看工作流 -->
+	<action name="/queryHistoryAudit"  class="com.njwangbo.oa.action.WorkFlowAction" method="queryHistoryAudit">
+		<result name="success" type="forward">
+		   		/njwb/audit/auditHistory.jsp
+		</result>
+	</action>
+	<!-- 获取当前审批的数据节点名称 -->
+	<action name="/auditBefor"  class="com.njwangbo.oa.action.WorkFlowAction" method="auditBefor">
+		<result name="success" type="forward">
+		   		/njwb/audit/audit.jsp
+		</result>
+		<result name="unSubmit" type="forward">/njwb/prompt/error.jsp</result>
+		<result name="error" type="forward">/njwb/prompt/error.jsp</result>
+	</action>
+	<!-- 关闭当前节点打开下一个节点 -->
+	<action name="/audit"  class="com.njwangbo.oa.action.WorkFlowAction" method="audit">
+		<result name="success" type="forward">
+		   		/njwb/audit/auditResult.jsp
+		</result>
+	</action>
+</actions>

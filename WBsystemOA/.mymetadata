@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="WBsystemOA"
+  id="myeclipse.1474723844914"
+  context-root="/WBsystemOA"
+  j2ee-spec="5.0"
+  archive="WBsystemOA.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+

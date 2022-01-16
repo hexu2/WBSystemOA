@@ -1,0 +1,30 @@
+﻿1、请假列表
+main.jsp --->servlet ------holidayList.jsp 
+
+1)QueryHolidaysServlet 
+2)数据库t_menu加上请假管理菜单的请求路径！！！
+
+3）填充servlet
+--查询请假数据
+--查询请假类型数据（见代码）
+
+4）holidayList.jsp 取值
+
+
+
+2、修改或者添加
+1）入口：添加按钮/修改按钮
+2）list.jsp -----》 add.jsp   获取不到请假类型
+
+list.jsp----->servlet（获取数据）---->add.jsp
+list.jsp----->selvlet------->edit.jsp(请假类型列表、修改对象的数据)
+
+是否需要跳转到servlet，取决于最后跳转的页面是否需要从后台取数据~！
+
+3、草稿、已提交按钮的状态控制
+1）考虑将状态设计成下拉框
+2）考虑使用隐藏域，在页面的“草稿”“提交”按钮中添加事件改变隐藏域的值
+
+
+
+

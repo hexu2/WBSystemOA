@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <!-- 
+    	(1)事务  一个
+    	(2)所有的dao配置在一起
+    	
+    	(3)所有的service配置在一起
+    	         引用dao
+    	         引用事务  
+     -->
+     
+    <!-- 事务 -->
+	<bean id="tx" class="com.njwangbo.oa.transaction.impl.TransactionImpl" ></bean>
+
+    <!-- dao -->
+	<bean id="deptDao" class="com.njwangbo.oa.dao.impl.DeptDaoImpl" />
+	<bean id="userDao" class="com.njwangbo.oa.dao.impl.UserDaoImpl" />
+	<bean id="employeeDao" class="com.njwangbo.oa.dao.impl.EmployeeDaoImpl" />
+	<bean id="holidayDao" class="com.njwangbo.oa.dao.impl.HolidayDaoImpl" />
+	<bean id="propertiesDao" class="com.njwangbo.oa.dao.impl.PropertiesDaoImpl" />
+	<bean id="menuDao" class="com.njwangbo.oa.dao.impl.MenuDaoImpl" />
+	<bean id="baoXiaoDao" class="com.njwangbo.oa.dao.impl.BaoXiaoDaoImpl" />
+	<bean id="statusDao" class="com.njwangbo.oa.dao.impl.StatusDaoImpl" />
+	<bean id="roleDao" class="com.njwangbo.oa.dao.impl.RoleDaoImpl" />
+	<bean id="permissionDao" class="com.njwangbo.oa.dao.impl.PerssionDaoImpl" />
+	<bean id="workFlowDao" class="com.njwangbo.oa.dao.impl.WorkFlowDaoImpl" />
+	
+	<!-- service -->
+		<!-- propertiesService -->
+	<bean id="propertiesService" class="com.njwangbo.oa.service.impl.PropertiesServiceImpl" >
+		<property name="propertiesDao" ref="propertiesDao"  />
+		<property name="tx" ref="tx"  />
+	</bean>
+		<!-- deptService -->
+	<bean id="deptService" class="com.njwangbo.oa.service.impl.DeptServiceImpl" >
+		<property name="deptDao" ref="deptDao"  />
+		<property name="tx" ref="tx"  />
+	</bean>
+		<!-- userService -->
+	<bean id="userService" class="com.njwangbo.oa.service.impl.UserServiceImpl" >
+		<property name="userDao" ref="userDao"  />
+		<property name="tx" ref="tx"  />
+	</bean>
+		<!-- employeeService -->
+	<bean id="employeeService" class="com.njwangbo.oa.service.impl.EmployeeServiceImpl" >
+		<property name="employeeDao" ref="employeeDao"  />
+		<property name="tx" ref="tx"  />
+	</bean>
+		<!-- holidayService -->
+	<bean id="holidayService" class="com.njwangbo.oa.service.impl.HolidayServiceImpl" >
+		<property name="holidayDao" ref="holidayDao"  />
+		<property name="tx" ref="tx"  />
+	</bean>
+			<!-- MenuService -->
+	<bean id="menuService" class="com.njwangbo.oa.service.impl.MenuServiceImpl" >
+		<property name="menuDao" ref="menuDao"  />
+		<property name="tx" ref="tx"  />
+	</bean>
+		<!-- baoXiaoService -->
+	<bean id="baoXiaoService" class="com.njwangbo.oa.service.impl.BaoXiaoServiceImpl" >
+		<property name="baoXiaoDao" ref="baoXiaoDao"  />
+		<property name="tx" ref="tx"  />
+	</bean>
+	
+			<!-- statusService -->
+	<bean id="statusService" class="com.njwangbo.oa.service.impl.StatusServiceImpl" >
+		<property name="statusDao" ref="statusDao"  />
+	</bean>
+	
+			<!-- roleService -->
+	<bean id="roleService" class="com.njwangbo.oa.service.impl.RoleServiceImpl" >
+		<property name="roleDao" ref="roleDao"  />
+		<property name="tx" ref="tx"  />
+	</bean>	
+	
+			<!-- permissionService -->
+	<bean id="permissionService" class="com.njwangbo.oa.service.impl.PermissionServiceImpl" >
+		<property name="permissionDao" ref="permissionDao"  />
+		<property name="tx" ref="tx"  />
+	</bean>	
+			<!-- workFlowService -->
+	<bean id="workFlowService" class="com.njwangbo.oa.service.impl.WorkFlowServiceImpl" >
+		<property name="workFlowDao" ref="workFlowDao"  />
+		<property name="tx" ref="tx"  />
+	</bean>	
+</beans>

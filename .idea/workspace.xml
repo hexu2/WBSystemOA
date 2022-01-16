@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d19689d-86e4-4be2-bdc7-73185f742d6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/WBSystemOA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectDoc/.~lock.新建 Microsoft Office Word 97-2003 文档.doc#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectDoc/.~lock.网博管理系统03.doc#" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectDoc/工作流.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectDoc/数据.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectDoc/网博管理系统03.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectDoc/菜单权限控制.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectDoc/请假管理.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/.mymetadata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/.settings/com.genuitec.eclipse.j2eedt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestBaoXiaoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestDeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestEmPDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestEmployeeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestEmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestHolidayDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestHolidayService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestMenuDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestMenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestPermissionDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestPermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestPropertiesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestRoleDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestRoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestStatusService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestUserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestWorkFlowDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/TestWorkFlowService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/action/BaoXiaoAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/action/DeptAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/action/EmpAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/action/HolidayAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/action/PermissionAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/action/RoleAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/action/UserAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/action/WorkFlowAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/config/ActionConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/config/ActionMappingConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/config/Configuration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/config/ResultConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/BaoXiaoDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/DeptDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/EmployeeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/HolidayDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/MenuDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/PermissionDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/PropertiesDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/RoleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/StatusDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/WorkFlowDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/BaoXiaoDaoImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/BaoXiaoDaoImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/BaoXiaoDaoImpl$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/BaoXiaoDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/BaoXiaoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/DeptDaoImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/DeptDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/DeptMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/EmployeeDaoImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/EmployeeDaoImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/EmployeeDaoImpl$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/EmployeeDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/HolidayDaoImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/HolidayDaoImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/HolidayDaoImpl$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/HolidayDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/HolidayMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/MenuDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/MenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/PermissionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/PerssionDaoImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/PerssionDaoImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/PerssionDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/PropertiesDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/PropertiesMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/RoleDaoImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/RoleDaoImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/RoleDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/RoleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/StatusDaoImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/StatusDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/UserDaoImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/UserDaoImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/UserDaoImpl$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/WorkFlowActionMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/WorkFlowDaoImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/WorkFlowDaoImpl$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/WorkFlowDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dao/impl/WorkFlowNodeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/dispatcher/DispatcherServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/entity/BaoXiao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/entity/Dept.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/entity/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/entity/Holiday.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/entity/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/entity/MenuSon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/entity/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/entity/Properties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/entity/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/entity/Status.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/entity/WorkFlow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/entity/WorkFlowNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/entity/WorkNodeAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/exception/OAException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/factory/ApplicationContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/filter/AuthorityFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/filter/CharacterEncodingFilter$NBRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/filter/CharacterEncodingFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/BaoXiaoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/DeptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/HolidayService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/MenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/PermissionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/PropertiesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/StatusService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/WorkFlowService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/impl/BaoXiaoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/impl/DeptServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/impl/HolidayServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/impl/MenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/impl/PermissionServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/impl/PropertiesServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/impl/StatusServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/service/impl/WorkFlowServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/transaction/Transaction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/transaction/impl/TransactionImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/util/Constant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/util/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/util/JdbcTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/util/JdbcUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/util/MakeCertPic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/util/PageModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/util/RowMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/com/njwangbo/oa/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/dataSource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/oa.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/快速建库建表.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/classes/项目说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/lib/commons-beanutils.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/lib/commons-lang-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/lib/commons-pool-1.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/lib/jaxen-1.1-beta-6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/lib/json-lib-2.2.3-jdk13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/lib/junit-4.9b2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/img/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/img/calendar_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/img/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/img/detail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/img/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/img/register_write_ok.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/开发包/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/开发包/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/开发包/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/开发包/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/开发包/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/开发包/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/开发包/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/开发包/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/开发包/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/开发包/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/My97DatePicker/开发包/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/laydate/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/laydate/need/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/laydate/skins/dahong/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/laydate/skins/dahong/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/laydate/skins/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/laydate/skins/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/laydate/skins/molv/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/laydate/skins/molv/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/js/layer/skin/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/audit/audit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/audit/auditHistory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/audit/auditResult.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/baoXiao/baoXiao.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/baoXiao/baoXiaoAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/baoXiao/baoXiaoDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/baoXiao/baoXiaoEdit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/dept/dept.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/dept/deptAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/dept/deptDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/dept/deptEdit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/emp/emp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/emp/empAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/emp/empDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/emp/empEdit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/holiday/holiday.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/holiday/holidayAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/holiday/holidayDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/holiday/holidayEdit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/loginError.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/permission/permission.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/permission/permissionAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/prompt/control.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/prompt/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/prompt/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/resetpwd/resetPwd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/role/role.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/role/roleAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/role/roleEdit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/user/user.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/user/userAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/user/userDetail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/WebRoot/njwb/user/userEdit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestBaoXiaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestDeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestEmPDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestEmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestHolidayDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestHolidayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestMenuDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestPermissionDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestPermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestPropertiesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestRoleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestStatusService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestUserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestWorkFlowDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/com.njwangbo.oa.test/TestWorkFlowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/action/BaoXiaoAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/action/DeptAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/action/EmpAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/action/HolidayAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/action/PermissionAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/action/RoleAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/action/UserAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/action/WorkFlowAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/config/ActionConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/config/ActionMappingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/config/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/config/ResultConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/BaoXiaoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/DeptDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/HolidayDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/MenuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/PermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/PropertiesDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/StatusDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/WorkFlowDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/BaoXiaoDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/BaoXiaoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/DeptDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/DeptMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/EmployeeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/HolidayDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/HolidayMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/MenuDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/PerssionDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/PropertiesDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/PropertiesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/RoleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/StatusDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/WorkFlowActionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/WorkFlowDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dao/impl/WorkFlowNodeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/dispatcher/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/entity/BaoXiao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/entity/Dept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/entity/Holiday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/entity/MenuSon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/entity/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/entity/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/entity/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/entity/WorkFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/entity/WorkFlowNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/entity/WorkNodeAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/exception/OAException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/factory/ApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/filter/AuthorityFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/filter/CharacterEncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/BaoXiaoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/DeptService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/HolidayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/PropertiesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/StatusService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/WorkFlowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/impl/BaoXiaoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/impl/DeptServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/impl/HolidayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/impl/PropertiesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/impl/StatusServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/service/impl/WorkFlowServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/transaction/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/transaction/impl/TransactionImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/util/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/util/JdbcTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/util/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/util/MakeCertPic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/util/PageModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/util/RowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/com/njwangbo/oa/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/dataSource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/oa.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/快速建库建表.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WBsystemOA/src/项目说明.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/InstallSofeWare/apache-maven-3.6.1/repository/anialy-repo" />
+        <option name="mavenHome" value="$USER_HOME$/InstallSofeWare/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="$USER_HOME$/InstallSofeWare/apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/WBSystemOA.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="-3840" />
+    <option name="y" value="-822" />
+    <option name="width" value="3840" />
+    <option name="height" value="2135" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WBSystemOA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WBSystemOA" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WBSystemOA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WBSystemOA" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WBSystemOA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WBSystemOA" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectDoc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WBSystemOA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WBSystemOA" type="462c0819:PsiDirectoryNode" />
+              <item name="WBsystemOA" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d19689d-86e4-4be2-bdc7-73185f742d6d" name="Default Changelist" comment="" />
+      <created>1642352808046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642352808046</updated>
+      <workItem from="1642352811298" duration="266000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="266000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-3840" y="-847" width="3840" height="2160" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="simpleUML" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986835" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Redis Servers" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="knownFile0" value="file://$PROJECT_DIR$/../123.suml" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>
